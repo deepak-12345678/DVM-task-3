@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/f8c1fa29ab.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>The Rail Park</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&family=Prompt&family=Quicksand:wght@300&family=Raleway&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://kit.fontawesome.com/f8c1fa29ab.js" crossorigin="anonymous"></script>
+    <script src="app.js" defer></script>
+    <link rel="icon" href="https://www.therailpark.org/favicon-32x32.png?v=4d1a4e672c3a42bca5abe60d53d404a0" type="image/png">
+  </head>
+  <body>
+    <script
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TimelineMax.min.js"
+    ></script>
+
+    <header>
+      <nav>
+        <span class="topbar">
+          <button class="menu">
+            <span class="bar"></span> <span class="bar"></span>
+          </button>
+        </span>
+        <span class="options">
+          <a href="#" class="visit">VISIT</a>
+          <a href="#" class="img">
+            <svg
+              width="50"
+              height="55"
+              viewBox="0 0 50 55"
+              xmlns="http://www.w3.org/2000/svg"
+              class="Logo__LogoWrapper-sc-82qk6d-0 cFSmHA"
+            >
+              <title>Rail Park Logo</title>
+              <path
+                d="M50 24.1047C50 32.5791 46.255 38.7366 41.06 42.4337L37.8017 32.9445L41.7965 32.9511L40.2512 29.3159L36.5555 29.3127L33.6029 20.7209L36.5983 20.7241L35.362 17.8167L32.6034 17.8134L30.2788 11.0424L32.4818 11.0457L31.6565 9.10739L29.6114 9.10412L26.4977 0.0391575C32.1825 0.300208 37.2986 2.01661 41.0732 4.66301C46.3602 8.17413 50 15.5586 50 24.1047ZM9.35425 29.2768L13.0664 29.28L16.1011 20.6947L13.017 20.6915L14.2566 17.7873L17.1303 17.7906L19.5239 11.0261L17.1467 11.0228L17.972 9.08781L20.2078 9.09107L23.4103 0.0391575C13.6779 0.512311 4.82015 5.33521 1.50589 14.906C0.48333 17.8558 0 20.9852 0 24.1047C0 32.3506 3.52798 38.4592 8.50266 42.1824L11.7808 32.9119L7.80562 32.9054L9.35425 29.2768ZM16.7883 29.2866L32.8697 29.3061L30.5583 20.7143L19.1787 20.7013L16.7883 29.2866ZM27.4282 9.10412L24.9786 0C24.9655 0 24.949 0 24.9359 0L22.4042 9.09433L27.4282 9.10412ZM21.8682 11.0326L19.9842 17.8004L29.7725 17.8134L27.9509 11.0424L21.8682 11.0326ZM15.7789 32.9184L12.5436 44.5482C13.6286 45.0344 14.7465 45.4292 15.8841 45.7262C17.3802 46.1178 20.1946 46.3429 23.213 46.4114C22.9664 50.5165 22.654 54.8042 22.414 55H27.586C27.3427 54.8042 27.0303 50.5197 26.787 46.4147C29.8481 46.3527 32.679 46.1243 34.1159 45.7262C35.099 45.4554 36.0689 45.1127 37.0126 44.7048L33.8463 32.938L15.7789 32.9184Z"
+              ></path>
+            </svg>
+          </a>
+          <a href="#" class="vision">VISION</a>
+        </span>
+        <span class="donate">
+          <p><button class="do">DONATE</button></p>
+          <p class="jap"><a>ES </a>| <a>中文</a></p>
+        </span>
+      </nav>
+    </header>
+    <div class="mobile">
+      <div class="heading">The Rail<br>Park</div>
+      <div class="picture"><img class="tree"
+        src="https://images.prismic.io/railpark/b75ee5d3-664e-44d8-975a-b739140bf61d_landing-page-header-phase-1.jpg?ixlib=gatsbyFP&auto=compress%2Cformat&fit=max&q=50&w=1678&h=944"
+      />
+      <img src="hours-badge.svg" class="hh"></div>
+      <div class="swipe">&larr; Swipe &rarr;</div>
+      <div class="open">Phase One is free & open daily</div>
+      <div class="na">Plan your visit</div>
+    </div>
+    <div class="page1">
+    <div class="major">
+      <div class="minorarrow1"><svg width="54" height="13" viewBox="0 0 54 13" fill="#131313" xmlns="http://www.w3.org/2000/svg" style="transform:rotate(180deg)" class="bsdk"><path fill-rule="evenodd" clip-rule="evenodd" d="M51.8697 5.99991L47.63 1.33625L48.37 0.663574L53.37 6.16357L53.6757 6.49991L53.37 6.83625L48.37 12.3362L47.63 11.6636L51.8697 6.99991H-1.14441e-05V5.99991H51.8697Z" ></path></svg></div>
+    <table>
+      <tr>
+        <td colspan="2">The Rail</td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td valign="top">
+          Park<br />
+          <p class="in">
+            <br /><br />Phase One is free & open daily<br /><br />
+            <p class="plan">Plan your visit &nbsp&nbsp&nbsp <span id="arrow"> <i class="fa-solid fa-arrow-right"></i></p></span>
+          </p>
+        </td>
+        <td colspan="3" class="image">
+          
+          <img class="tree"
+            src="https://images.prismic.io/railpark/b75ee5d3-664e-44d8-975a-b739140bf61d_landing-page-header-phase-1.jpg?ixlib=gatsbyFP&auto=compress%2Cformat&fit=max&q=50&w=1678&h=944"
+          />
+          
+          
+          <img src="hours-badge.svg" class="hh">
+          
+        </td>
+      </tr>
+    </table>
+    <div class="minorarrow2"><svg
+      width="54"
+      height="13"
+      viewBox="0 0 54 13"
+      fill="#131313"
+      class="ghhg"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        fill-rule="evenodd"
+        clip-rule="evenodd"
+        d="M51.8697 5.99991L47.63 1.33625L48.37 0.663574L53.37 6.16357L53.6757 6.49991L53.37 6.83625L48.37 12.3362L47.63 11.6636L51.8697 6.99991H-1.14441e-05V5.99991H51.8697Z"
+      ></path>
+    </svg></div>
+  </div>
+</div>
+<br>
+<br><br>
+<br>
+<br><br>
+<div class="page2mobv">
+  <div class="line1">Visiting the</div>
+  <div class="line2">Rail Park</div>
+  <video src="https://railpark.cdn.prismic.io/railpark/2dbc0398-7647-47f1-a9b2-519d8521eaf2_noble-st-entrance.mp4" poster="https://images.prismic.io/railpark/28507bd7-e937-4074-87b0-95751194f4c1_noble-entrance.jpg?ixlib=gatsbyFP&amp;auto=compress%2Cformat&amp;fit=max&amp;q=50" preload="none" loop="" muted="" playsinline="" width="100%" height="100%"></video>
+  <div class="arrwc"><div class="upper"><i class="fa-solid fa-arrow-up-long"></i></div><div class="tooltip">This entrance is wheel chair accesible,with an ADA slope</div><div class="wc"><i class="fa-brands fa-accessible-icon"></i></div></div>
+  <div class="nce">Noble St Entrance</div>
+  <div class="gd"><div class="thir">1300 Noble St</div><div class="ire">Get Directions</div></div>
+</div>
+<div class="page2">
+  <div class="line1">Visiting the</div>
+  <div class="line2">Rail Park</div>
+  <div></div>
+  <div class="bak">
+  <div class="semi">
+   
+    <video src="https://railpark.cdn.prismic.io/railpark/2dbc0398-7647-47f1-a9b2-519d8521eaf2_noble-st-entrance.mp4" poster="https://images.prismic.io/railpark/28507bd7-e937-4074-87b0-95751194f4c1_noble-entrance.jpg?ixlib=gatsbyFP&amp;auto=compress%2Cformat&amp;fit=max&amp;q=50" preload="none" loop="" muted="" playsinline="" width="100%" height="100%"></video>
+  </div>
+  <div class="junior">
+    <div class="arr"><i class="fa-solid fa-arrow-left"></i></div>
+    <div class="te">Noble St Entrance</div>
+    <div class="info">1300 Noble St.</div>
+  </div>
+  
+  <div class="jun">
+    <div><br><br><br><br><br></div>
+    <div class="log"><i class="fa-brands fa-accessible-icon"></i>  </div>
+    <span class="dir"><br>Get Directions<span class="diagnol"><i class="fa-solid fa-arrow-left-long" id="rotate"></i></span></span>
+  </div>
+  <div class="appear">
+    This entrance is wheel chair accesible,with an ADA slope
+  </div>
+</div>
+</div>
+<div class="page3">
+  
+  <div class="street">
+    <div class="arrow">
+      
+    </div>
+    <div class="call">
+      <div class="ex">Callowhill St Entrance</div>
+      <div class="stairs"><i class="fa-solid fa-stairs"></i></div>
+    </div>
+    <div class="bet">
+      <div class="st">
+        Between 11th & 12th St
+      </div>
+      <span class="get">
+        Get Directions <span class="bapu"><i class="fa-solid fa-arrow-right"></i></span>
+      </span>
+      <div class="app">
+        This entrance is a staircase. For ramp access, use the Noble St. Emtrance
+      </div>
+    </div>
+  </div>
+  <div class="mih">
+    <video src="https://railpark.cdn.prismic.io/railpark/c301079f-60c5-43d1-8133-b8960b6c6f88_callowhill-st-entrance.mp4" poster="https://images.prismic.io/railpark/ca831225-3552-40ec-9f6f-bb576af3eb65_callowhill-entrance.jpg?ixlib=gatsbyFP&amp;auto=compress%2Cformat&amp;fit=max&amp;q=50" preload="none" loop="" muted="" playsinline="" width="100%" height="100%"></video>
+  </div>
+</div>
+<div class="page3mobv">
+  <video src="https://railpark.cdn.prismic.io/railpark/2dbc0398-7647-47f1-a9b2-519d8521eaf2_noble-st-entrance.mp4" poster="https://images.prismic.io/railpark/ca831225-3552-40ec-9f6f-bb576af3eb65_callowhill-entrance.jpg?ixlib=gatsbyFP&amp;auto=compress%2Cformat&amp;fit=max&amp;q=50" preload="none" loop="" muted="" playsinline="" width="90%" height="101%"></video>
+  <div class="arrwc1"><div class="upper1"><i class="fa-solid fa-arrow-up-long"></i></div><div class="tooltip1">This entrance is a staircase. For ramp access, use the Noble St. Emtrance</div><div class="wc1"><i class="fa-solid fa-stairs"></i></div></div>
+  <div class="nce1">Callowhill St Entrance</div>
+  <div class="gd1"><div class="thir1">Between 11th & 12th St</div><div class="ire1">Get Directions</div></div>
+</div>
+<div class="page4">
+  <p class=mile>We are building a <br><span class="green">three mile greenway </span><br>with three distinct sections across ten neighborhoods</p><p><br><br><p class="alot">And there’s a lot more to do <button class="nn">DONATE</button> </p></p>
+  <video class="xx" src="visit-video-placeholder-small.mp4" width="30%" height="60%" autoplay muted loop></video>
+</div>
+<!-- <div class="page5">
+  <div class="obc">
+    <video src="homepage-viaduct.mp4"  height="522px" width=auto ></video>
+  </div>
+</div> -->
+<div class="page5">
+  <div class="ilu"><div class="l"><video src="homepage-viaduct.mp4" poster="" width="100%" height="100%" class="heo"></video></div><div class="via">The<br>Viaduct<br><p class="lib"><br>Chinatown→Northern Liberties</p></div></div>
+  <div class="but"><div class="deo"><video src="homepage-cut.mp4" width="100%" class="cut"></video></div><p class="gpl">The Cut<br><p class="hill">Callowhill→Francisville</p></p></div>
+  <div class="our">
+    Our full vision for the Rail Park is to create a three-mile greenway with three sections: the Viaduct, the Cut, and the Tunnel. It will reach from Northern Liberties to Fairmount Park, with pathways and gathering spaces that will serve pedestrians, bicyclists, neighbors, and visitors alike.<br><br><p class="le">Learn more about the full vision</p>
+  </div>
+  <div class="tun"><div class="tunvi"><video src="homepage-tunnel.mp4" width="100%" height="100%">
+  </video></div><div><p class="tunnel">The<br>Tunnel</p><br><br><p class="fair">Fairmount→Brewerytown</p></div></div>
+  <div class="cvt">
+    <div class="v1"><video class="v1" poster="https://images.prismic.io/railpark/e9874d84-0be0-4864-80de-dfeab4d76be7_the-viaduct.jpg?ixlib=gatsbyFP&auto=compress%2Cformat&fit=max&q=50&w=799&h=999" loop="" muted="" playsinline="" preload="none" height="100%" width="100%"><source src="homepage-viaduct.mp4"></video><p class="pa1">The Viaduct</p></div><div class="v2"><p class="pa2">The Cut</p><img src="https://images.prismic.io/railpark/d7009ba0-a9fb-4192-96c3-da520075023d_the-cut.jpg?ixlib=gatsbyFP&auto=compress%2Cformat&fit=max&q=50&w=1446&h=1157"></div><div class="v3"><img src="https://images.prismic.io/railpark/ebcfced6-c746-43c0-91b8-ba8b64835cea_the-tunnel.jpg?ixlib=gatsbyFP&auto=compress%2Cformat&fit=max&q=50&w=1446&h=1808"><p class="pa3">The Tunnel</p></div>
+  </div>
+  <div class="our2">
+    Our full vision for the Rail Park is to create a three-mile greenway with three sections: the Viaduct, the Cut, and the Tunnel. It will reach from Northern Liberties to Fairmount Park, with pathways and gathering spaces that will serve pedestrians, bicyclists, neighbors, and visitors alike.<br><br><p class="le">Learn more about the full vision</p>
+  </div>
+</div>
+<div class="page3rdlast">
+  <div class="box"><img src="https://images.prismic.io/railpark/608d7dd0-db58-4056-a761-08eaf1616b40_Untitled%20design%20(9).jpg?ixlib=gatsbyFP&auto=compress%2Cformat&fit=max&q=50&rect=0%2C261%2C1774%2C999&w=2160&h=1216"></div>
+  <div class="wri">
+    
+    <div class="fuck"><div class="date">Saturday,March 19,2022</div><br><div class="tour">Three Mile Vsion Tour</div><br><div class="fri">Join Friends of Rail Park for a tour of the Three Mile Vision!</div><br><div class="det">Details <i class="fa-solid fa-arrow-right"></i></div></div><svg width="107" height="107" viewBox="0 0 107 107" fill="#9F17D4" xmlns="http://www.w3.org/2000/svg" class="FeaturedEventCallout__FeaturedEventText-sc-1yk9lu8-2 dDGLBd"><title>Featured Event</title><path d="M21.0182 13.5168L17.2591 17.1463L19.3893 19.3992L22.6472 16.2703L23.7749 17.3967L20.517 20.5256L23.399 23.5293L22.146 24.7809L14.8783 17.1463L19.8905 12.2653L21.0182 13.5168ZM28.9124 16.6457L33.5486 13.642L34.4258 15.0187L28.2859 19.0237L22.6472 10.1376L28.6618 6.38291L29.5389 7.75963L25.028 10.6382L26.5316 13.0162L30.2907 10.6382L31.1679 12.0149L27.4087 14.3929L28.9124 16.6457ZM42.5705 12.1401L41.1922 10.3879L36.8065 12.0149V14.2677L35.0523 14.8935L35.3029 3.62947L37.0572 2.87853L44.3248 11.5143L42.5705 12.1401ZM36.6812 10.1376L40.0645 9.01119L36.8065 5.00619L36.6812 10.1376ZM50.59 0.125095L50.8406 1.75213L47.4574 2.25275L48.7104 11.0137L46.8309 11.264L45.5778 2.50306L42.1946 3.00369L41.944 1.2515L50.59 0.125095ZM54.0985 -6.10352e-05L55.8528 0.125095L55.3515 6.50806C55.2262 8.00994 56.1034 9.13634 57.7323 9.2615C59.236 9.38666 60.3637 8.51056 60.489 6.88353L60.9902 0.500564L62.7445 0.62572L62.2433 7.00869C62.118 8.26025 61.6167 9.2615 60.7396 10.0124C59.8625 10.7634 58.7347 11.0137 57.4817 10.8885C56.2287 10.7634 55.2262 10.2628 54.4744 9.51181C53.7226 8.63572 53.472 7.63447 53.5973 6.38291L54.0985 -6.10352e-05ZM69.5109 13.642L69.0097 9.38666L66.6289 8.63572L65.3759 12.2653L63.6216 11.6395L67.0048 1.62697L71.2652 3.00369C72.2676 3.37916 73.0194 3.87978 73.3953 4.63072C73.7712 5.38166 73.8965 6.25775 73.5206 7.259C73.0194 8.63572 72.017 9.38666 70.7639 9.51181L71.3905 14.1426L69.5109 13.642ZM68.2579 3.87978L67.1301 7.00869L69.5109 7.75963C70.5133 8.13509 71.3905 7.63447 71.7664 6.75838C72.1423 5.88228 71.6411 5.00619 70.6386 4.63072L68.2579 3.87978ZM75.2749 14.5181L80.0364 17.3967L79.034 18.7734L72.7688 15.0187L78.1569 6.00744L84.2968 9.63697L83.4196 11.1388L78.9087 8.38541L77.5303 10.7634L81.4148 13.1413L80.5377 14.5181L76.6532 12.1401L75.2749 14.5181ZM90.3114 14.6432C91.4391 15.7696 92.0656 17.0212 92.0656 18.3979C92.0656 19.7746 91.5644 21.0262 90.4367 22.1526C89.3089 23.279 88.0559 23.9048 86.6775 23.9048C85.2992 23.9048 84.0462 23.279 82.7931 22.1526L80.1617 19.6495L87.5547 12.1401L90.3114 14.6432ZM83.9209 20.901C84.6727 21.652 85.5498 22.0274 86.4269 22.0274C87.3041 22.0274 88.1812 21.652 88.933 20.901C89.6848 20.1501 90.0608 19.274 90.0608 18.3979C90.0608 17.5218 89.6848 16.6457 88.933 15.8948L87.68 14.6432L82.6678 19.7746L83.9209 20.901ZM91.6897 30.4129L94.3211 35.294L92.8174 36.0449L89.3089 29.662L98.5814 24.5306L101.965 30.7884L100.461 31.5393L97.9549 26.9085L95.5741 28.2852L97.7043 32.1651L96.326 32.916L94.1958 29.0362L91.6897 30.4129ZM105.598 41.3015L106.1 43.1788L94.9476 42.5531L94.3211 40.3002L103.468 33.7921L103.969 35.6695L96.326 40.926L105.598 41.3015ZM97.8296 48.936L98.2055 54.4429L96.5766 54.5681L95.95 47.1838L106.476 46.5581L106.851 53.692L105.223 53.8171L104.972 48.5606L102.215 48.6857L102.466 53.1913L100.837 53.3165L100.586 48.8109L97.8296 48.936ZM105.598 64.5806L105.348 66.3327L94.9476 64.5806L95.3235 62.5781L103.969 59.0737L96.2006 57.697L96.4513 55.9448L106.851 57.697L106.476 59.6995L97.8296 63.2038L105.598 64.5806ZM100.837 77.9723L99.3332 77.3465L100.712 74.2176L92.5668 70.7132L93.3187 69.0862L101.463 72.5906L102.842 69.4616L104.345 70.0874L100.837 77.9723ZM85.5498 93.4916L89.4342 89.9873L87.3041 87.7345L84.0462 90.7382L82.9184 89.6118L86.1763 86.608L83.4196 83.4791L84.798 82.2276L91.9403 89.9873L86.8028 94.7432L85.5498 93.4916ZM77.781 90.1124L73.0194 92.991L72.1423 91.6143L78.4075 87.8596L83.7956 96.8709L77.6557 100.5L76.7785 98.9985L81.2895 96.2451L79.9111 93.8671L76.0267 96.1199L75.1496 94.7432L79.034 92.4904L77.781 90.1124ZM63.9975 94.3677L65.3759 96.1199L69.8868 94.618L70.0121 92.3652L71.7664 91.7395L71.2652 103.004L69.2603 103.629L62.2433 94.8684L63.9975 94.3677ZM69.8868 96.4954L66.5036 97.6218L69.7615 101.752L69.8868 96.4954ZM55.7275 106.132L55.4768 104.505L58.8601 104.13L57.8576 95.369L59.6119 95.1187L60.6143 103.88L64.1228 103.504L64.3734 105.131L55.7275 106.132ZM52.0936 106.132L50.3394 105.882L51.0912 99.4991C51.2165 97.9973 50.3394 96.8709 48.8357 96.6206C47.3321 96.4954 46.2043 97.3715 45.9537 98.8734L45.2019 105.256L43.4477 105.006L44.1995 98.6231C44.3248 97.3715 44.826 96.3702 45.7031 95.7445C46.5803 95.1187 47.708 94.7432 48.961 94.9935C50.2141 95.1187 51.2165 95.6193 51.9683 96.4954C52.7202 97.3715 52.9708 98.3727 52.8455 99.7495L52.0936 106.132ZM37.0572 92.2401L37.5584 96.4954L39.9391 97.3715L41.3175 93.742L43.0717 94.3677L39.4379 104.255L35.1776 102.628C34.1752 102.253 33.5486 101.752 33.0474 100.876C32.6715 100.125 32.6715 99.2488 32.9221 98.2476C33.4233 96.996 34.4258 96.1199 35.6788 96.1199L35.0523 91.4891L37.0572 92.2401ZM38.1849 102.002L39.3126 98.8734L36.9319 97.9973C35.9294 97.6218 35.0523 97.9973 34.6764 98.9985C34.3005 99.8746 34.8017 100.751 35.8041 101.126L38.1849 102.002ZM31.4185 91.1137L26.7822 88.1099L27.6594 86.7332L33.7993 90.6131L28.1606 99.4991L22.146 95.6193L23.0231 94.2426L27.5341 97.1212L29.0377 94.7432L25.2786 92.3652L26.1557 90.9885L29.9148 93.3665L31.4185 91.1137ZM16.382 90.6131C15.2543 89.4866 14.753 88.2351 14.753 86.8584C14.753 85.4817 15.3796 84.2301 16.5073 83.1037C17.635 81.9773 18.8881 81.4766 20.2664 81.4766C21.6448 81.4766 22.8978 82.1024 24.0255 83.2288L26.5316 85.8571L19.0134 93.2413L16.382 90.6131ZM22.8978 84.4804C22.146 83.7295 21.2689 83.354 20.3917 83.354C19.5146 83.354 18.6375 83.7295 17.8856 84.4804C17.1338 85.2313 16.7579 86.1074 16.7579 86.9835C16.7579 87.8596 17.1338 88.7357 17.8856 89.4866L19.1387 90.7382L24.2761 85.732L22.8978 84.4804ZM15.3796 74.8434L12.8735 69.9623L14.3771 69.2113L17.7603 75.7195L8.36254 80.6006L5.10463 74.3427L6.60828 73.5918L8.98906 78.3477L11.4951 77.0962L9.36497 73.0912L10.7433 72.0899L12.8735 76.0949L15.3796 74.8434ZM1.72143 63.5793L1.22021 61.702L12.3723 62.7032L12.9988 64.956L3.72629 71.2138L3.22507 69.3365L10.9939 64.2051L1.72143 63.5793ZM9.74088 56.1951L9.61558 50.6882H11.2445L11.4951 57.9473L0.969602 58.3227L0.718994 51.1888H2.34795L2.47325 56.4454L5.35524 56.3202L5.22994 51.8146H6.85889L6.98419 56.3202L9.74088 56.1951ZM2.34795 40.3002L2.72386 38.5481L13.1241 40.5506L12.6229 42.5531L3.85159 45.9323L11.6204 47.4342L11.2445 49.1863L0.844298 47.1838L1.22021 45.1813L9.99149 41.8021L2.34795 40.3002ZM7.48541 27.0337L8.98906 27.7846L7.48541 30.9135L15.5049 34.5431L14.753 36.1701L6.73359 32.5406L5.22994 35.6695L3.85159 35.0437L7.48541 27.0337Z"></path></svg>
+
+  </div>
+  <br>
+</div>
+  <button class="full">Full Event Calendar&nbsp&nbsp&nbsp<i class="fa-solid fa-arrow-right"></i></button>
+
+<div class="page2ndlast">
+  <div class="news">News & Events</div>
+  <div class="pics">
+  <div class="i1"><img src="https://images.prismic.io/railpark/c5b424a5-b069-4e54-a3ff-ff0f9b4af77f_Blog%20Post%20Thumbnail%20(460%20x%20574)%20(3)%20(1).png?ixlib=gatsbyFP&auto=compress%2Cformat&fit=max&q=50&w=460&h=574"><br>We're Hiring: Development & Operations Associate<br><p class="rm" id="rm1"><br>Read More&nbsp<i class="fa-solid fa-arrow-right"></i></p></div>
+  <div class="i2"><img src="https://images.prismic.io/railpark/db2991d7-3423-4ddc-9392-45c25e07e5b5__DSC0003.jpg?ixlib=gatsbyFP&auto=compress%2Cformat&fit=max&q=50&rect=0%2C770%2C3072%2C2458&w=1075&h=860"><br>Weeding Happy Hour <br>Details<br><p class="rm" id="rm2"><br>Read More&nbsp<i class="fa-solid fa-arrow-right"></i></p></div>
+  <div class="i3"><img src="https://images.prismic.io/railpark/d825e9c3-044e-4094-84fa-51767244bdcd_Blog%20Post%20Thumbnail%20(460%20x%20574)%20(1).png?ixlib=gatsbyFP&auto=compress%2Cformat&fit=max&q=50&w=460&h=574"><br>Sounds of the Rail Park: Three Mile Vision <br><p class="rm" id="rm3"><br>Read More&nbsp<i class="fa-solid fa-arrow-right"></i></p>
+  </div>
+  <div class="i4"><img src="https://images.prismic.io/railpark/c5b424a5-b069-4e54-a3ff-ff0f9b4af77f_Blog%20Post%20Thumbnail%20(460%20x%20574)%20(3)%20(1).png?ixlib=gatsbyFP&auto=compress%2Cformat&fit=max&q=50&w=460&h=574"><br>We're Hiring: PHENND Fellow Community Development Coordinator <br><p class="rm" id="rm4"><br>Read More&nbsp<i class="fa-solid fa-arrow-right"></i></p></div>
+  <div class="i5"><img src="https://images.prismic.io/railpark/2e844124-53e8-4184-a14b-74c05583464a_EFA12973-B7A1-4184-8F63-47EEF9C6EB41%20-%20Celeste%20Divinity%20(1)%20(1).jpeg?ixlib=gatsbyFP&auto=compress%2Cformat&fit=max&q=50&rect=378%2C1007%2C2042%2C2548&w=460&h=574"><br>Rail Park Time Capsule
+    <br><p class="rm" id="rm5"><br>Read More&nbsp<i class="fa-solid fa-arrow-right"></i></p></div>
+  </div>
+  </div>
+ <center> <button class="full2">Full Event Calendar&nbsp&nbsp&nbsp<i class="fa-solid fa-arrow-right"></i></button></center>
+<div class="pagelast">
+  Be the first to know about news, events, and progress<br>
+  <div class="flex"><input type="text" placeholder="Enter your email"><button class="qq"><i class="fa-solid fa-arrow-right"></i></button> </div>
+</div>
+<footer>
+  <div class="ani"><div class="ch"><video src="https://www.therailpark.org//static/donate-coin-155288ee7d4bbd60b76226c03685d2b4.mp4" width="200px" autoplay muted loop></video><svg width="239" height="239" viewBox="0 0 239 239" fill="var(--color-white)" xmlns="http://www.w3.org/2000/svg" class="blabla"><title>Click here to donate today</title><path d="M25.2788 142.115C23.1723 144.85 20.1082 146.504 16.0865 147.077C12.0649 147.649 8.68163 146.95 5.87287 144.978C3.06411 143.006 1.34055 140.079 0.829866 136.199C0.383018 133.145 0.766031 130.474 2.04274 128.056C3.25561 125.639 5.17068 124.048 7.66026 123.158L9.703 126.911C8.04327 127.547 6.76656 128.629 5.9367 130.283C5.04301 131.873 4.78766 133.591 5.04301 135.435C5.42602 137.916 6.57506 139.825 8.42629 141.161C10.3413 142.497 12.6394 142.942 15.3844 142.497C18.1293 142.115 20.2358 140.97 21.7041 139.189C23.1723 137.407 23.683 135.245 23.2999 132.764C23.0446 130.855 22.2786 129.265 21.0019 128.056C19.7252 126.784 18.1931 126.084 16.4057 125.957L17.2356 121.758C19.8528 121.886 22.1509 122.903 24.066 124.875C25.9172 126.847 27.1301 129.265 27.5131 132.318C28.1514 136.072 27.3854 139.38 25.2788 142.115Z"></path><path d="M22.4062 111.071L23.8106 99.2388L27.9599 99.7477L25.981 116.033L0 112.852L0.510684 108.399L22.4062 111.071Z"></path><path d="M29.6197 94.8494L4.53235 87.2793L5.80906 83.0171L30.8964 90.5872L29.6197 94.8494Z"></path><path d="M30.8326 80.6633C27.4493 81.5539 24.066 81.045 20.4912 79.073C16.9165 77.1009 14.6184 74.4927 13.6608 71.2484C12.6395 67.9404 13.0863 64.6325 14.9376 61.1973C16.4058 58.5255 18.3847 56.617 20.8743 55.472C23.3 54.3269 25.7896 54.1361 28.343 54.8994L27.7046 59.1616C25.9811 58.6527 24.3214 58.7799 22.6616 59.5433C21.0019 60.2431 19.7252 61.4517 18.8315 63.1693C17.6186 65.3958 17.3633 67.6223 18.0655 69.7852C18.7677 71.9481 20.3636 73.7293 22.7893 75.0653C25.2151 76.4012 27.577 76.7828 29.8112 76.2739C32.0455 75.7014 33.769 74.3019 35.0457 72.139C35.9394 70.485 36.3224 68.7674 36.0671 66.9862C35.8118 65.205 35.0457 63.7419 33.7052 62.5332L36.9608 59.7341C38.9397 61.4517 40.1526 63.6146 40.4717 66.3501C40.7909 69.0219 40.2164 71.6937 38.7482 74.3655C36.7054 77.6098 34.152 79.7727 30.8326 80.6633Z"></path><path d="M58.6648 48.7288L44.8763 46.1842L45.2593 52.3548L50.1108 57.1895L46.919 60.3702L28.4067 41.7948L31.5985 38.6141L40.8547 47.9018L39.7056 30.5986L43.5996 26.7817L44.5571 41.6039L62.5587 44.8483L58.6648 48.7288Z"></path><path d="M78.9007 7.31574L82.9861 5.59814L93.1998 29.7081L89.1143 31.4257L84.8374 21.3109L73.1555 26.2093L77.4324 36.324L73.2831 38.0416L63.0695 13.9317L67.2188 12.2141L71.4957 22.3288L83.1776 17.4305L78.9007 7.31574Z"></path><path d="M102.775 23.6646L116.372 21.8198L116.947 25.9547L98.8812 28.3721L95.3702 2.48094L112.925 0.127197L113.5 4.26214L100.413 6.04335L101.371 12.9137L112.478 11.387L112.989 15.3311L101.881 16.8578L102.775 23.6646Z"></path><path d="M136.799 27.8632L133.352 17.7485L127.16 16.9851L125.947 26.5273L121.479 25.9548L124.671 0L135.714 1.33591C138.331 1.65398 140.31 2.67181 141.715 4.38941C143.119 6.107 143.63 8.14267 143.374 10.6236C142.928 14.0588 140.885 16.5398 137.757 17.494L141.779 28.4357L136.799 27.8632ZM128.692 4.70748L127.671 12.8501L133.927 13.6135C136.544 13.9316 138.523 12.4685 138.842 10.0511C139.161 7.63375 137.629 5.78893 134.948 5.40724L128.692 4.70748Z"></path><path d="M152.12 27.7359L164.887 32.825L163.355 36.7055L146.439 29.9624L156.142 5.66162L172.611 12.2139L171.079 16.0944L158.823 11.1961L156.269 17.6212L166.674 21.7561L165.206 25.4458L154.801 21.3108L152.12 27.7359Z"></path><path d="M207.465 37.7235L204.656 40.8406L198.209 35.1153L183.527 51.5278L180.144 48.5379L194.826 32.1254L188.378 26.4001L191.187 23.283L207.465 37.7235Z"></path><path d="M195.975 59.4797C196.805 56.1081 198.911 53.3727 202.295 51.1462C205.742 48.9196 209.125 48.2199 212.508 48.856C215.955 49.5558 218.7 51.5278 220.807 54.8358C222.913 58.1438 223.616 61.4517 222.786 64.8233C222.02 68.1949 219.913 70.9303 216.466 73.1568C213.019 75.3833 209.636 76.0831 206.252 75.4469C202.869 74.7472 200.124 72.7751 198.018 69.4672C195.847 66.1592 195.209 62.8512 195.975 59.4797ZM218.317 63.6146C218.892 61.4517 218.509 59.2888 217.168 57.1895C215.828 55.0903 213.977 53.818 211.742 53.4363C209.508 53.0546 207.21 53.6271 204.848 55.0903C202.486 56.5534 201.082 58.4618 200.443 60.6883C199.869 62.8512 200.252 65.0777 201.592 67.177C202.933 69.2763 204.784 70.485 207.018 70.8667C209.253 71.2484 211.551 70.6758 213.913 69.2127C216.275 67.6859 217.743 65.8411 218.317 63.6146Z"></path><path d="M237.404 97.712C238.106 101.656 237.468 104.964 235.553 107.763C233.638 110.562 230.701 112.343 226.807 112.98C222.913 113.616 219.594 112.98 216.785 110.944C213.976 108.908 212.253 105.918 211.551 101.911L210.019 93.0682L235.872 88.5515L237.404 97.712ZM215.572 101.084C216.019 103.692 217.232 105.664 219.083 107C220.998 108.336 223.296 108.781 225.914 108.336C228.531 107.89 230.51 106.682 231.85 104.773C233.191 102.928 233.638 100.638 233.191 98.0301L232.425 93.7043L214.87 96.7578L215.572 101.084Z"></path><path d="M216.913 122.458C219.722 120.422 223.105 119.659 227.127 120.168C231.148 120.677 234.276 122.267 236.383 125.003C238.553 127.738 239.383 130.982 238.872 134.863C238.362 138.743 236.766 141.67 233.957 143.769C231.212 145.868 227.829 146.632 223.743 146.123C219.722 145.614 216.594 144.023 214.423 141.288C212.253 138.616 211.487 135.308 211.998 131.428C212.508 127.484 214.104 124.557 216.913 122.458ZM231.276 139.952C233.127 138.68 234.276 136.771 234.595 134.29C234.915 131.809 234.34 129.646 232.872 127.929C231.404 126.211 229.297 125.13 226.552 124.748C223.807 124.366 221.509 124.875 219.594 126.148C217.743 127.42 216.594 129.392 216.275 131.873C215.955 134.354 216.53 136.453 217.998 138.171C219.466 139.888 221.573 140.97 224.382 141.351C227.127 141.733 229.425 141.288 231.276 139.952Z"></path><path d="M225.722 175.322L223.871 179.329L200.06 168.388L202.231 163.68L225.339 160.754L207.401 152.548L209.253 148.476L233.063 159.418L230.893 164.126L207.848 167.052L225.722 175.322Z"></path><path d="M185.059 186.582L190.294 188.617L198.018 179.839L195.273 174.94L198.337 171.441L211.678 195.997L208.295 199.877L181.931 190.144L185.059 186.582ZM200.06 183.528L194.315 190.144L206.444 194.915L200.06 183.528Z"></path><path d="M180.271 222.969L177.846 219.534L184.868 214.572L172.1 196.696L175.739 194.088L188.506 211.964L195.528 206.938L197.954 210.373L180.271 222.969Z"></path><path d="M158.567 208.91L145.736 213.809L144.204 209.928L161.248 203.376L170.696 227.804L154.163 234.165L152.631 230.285L164.951 225.577L162.461 219.152L151.992 223.16L150.588 219.47L161.057 215.462L158.567 208.91Z"></path><path d="M111.074 239L111.01 234.801L119.628 234.61L119.181 212.663L123.649 212.6L124.096 234.547L132.714 234.356L132.778 238.555L111.074 239Z"></path><path d="M104.754 215.272C106.414 218.262 106.797 221.76 105.775 225.641C104.754 229.585 102.775 232.448 99.8386 234.229C96.8383 236.01 93.5189 236.455 89.6888 235.438C85.8587 234.483 83.1776 232.448 81.454 229.458C79.7305 226.468 79.3474 223.033 80.3688 219.089C81.3902 215.145 83.3691 212.282 86.3055 210.501C89.2419 208.719 92.6252 208.338 96.4553 209.292C100.285 210.31 103.03 212.282 104.754 215.272ZM85.5395 227.295C86.6247 229.331 88.3482 230.667 90.774 231.239C93.1997 231.875 95.434 231.557 97.349 230.285C99.2641 229.013 100.605 227.104 101.307 224.432C102.009 221.76 101.818 219.407 100.732 217.371C99.6471 215.335 97.9236 213.999 95.434 213.363C92.9444 212.727 90.8378 213.045 88.9228 214.318C87.0077 215.59 85.6672 217.498 84.965 220.234C84.2628 222.969 84.4543 225.323 85.5395 227.295Z"></path><path d="M58.0903 221.76C54.707 219.661 52.6005 216.989 51.7706 213.681C50.9407 210.373 51.5791 207.002 53.6218 203.694C55.6646 200.386 58.4095 198.287 61.7928 197.523C65.176 196.76 68.5593 197.46 72.0703 199.623L79.7305 204.33L65.9421 226.595L58.0903 221.76ZM70.0275 203.249C67.7933 201.849 65.4952 201.404 63.261 201.913C60.9629 202.422 59.1755 203.885 57.7073 206.175C56.3029 208.401 55.8561 210.692 56.4306 212.918C56.9413 215.145 58.3457 216.989 60.6437 218.389L64.41 220.679L73.7938 205.539L70.0275 203.249Z"></path><path d="M46.2168 177.548L43.6634 182.574L51.7067 191.098L56.8774 188.872L60.0691 192.243L34.1519 202.93L30.641 199.177L43.0251 174.113L46.2168 177.548ZM47.7489 192.752L41.7484 186.327L35.7478 197.905L47.7489 192.752Z"></path><path d="M10.1498 168.833L30.0664 168.133L37.5352 163.871L39.7694 167.752L32.3007 172.014L21.5125 188.744L18.8952 184.228L26.9385 172.523L12.767 173.413L10.1498 168.833Z"></path></svg></div>
+  <p class="cop">&copy;2022 Friends of the Rail Park<br><br> The Friends of the Rail Park is a 501(c)3.<br>All donations are tax-deductible.</p></div>
+  <div class="hrs">
+    <div class="inf">
+      Hours & Info
+      <br><br>
+      <p class="big">
+        Free and open daily 7:00 am – 10:00 pm
+      </p>
+    </div>
+    <div class="ent">
+      <br><br>Entrance
+       <br>
+       <br>
+       <p class="n">N. Broad & Noble Streets Philadelphia, PA 19123</p>
+      </div>
+      <div class="trans"> 
+        <br><br>Translations
+        <br>
+        <br>
+        <p class="spain">Español/中文</p>
+      </div>
+    </div>
+    <div class="say">
+      <div class="hello">
+        Say Hello
+        <br>
+        <br>
+        <p class="email">friends@therailpark.org<br><div class="ber">215-485-2221</div></p> 
+          </div>
+          <div class="off">
+            <br><br>Office 
+            <br>
+            <br>
+            <p class="add">1219 Vine Street, Suite M Philadelphia, PA 19107 </p>
+          </div>
+          <div class="follow"> 
+            <br><br><br>Follow Along<br>
+            <div class="icon"><span class="insta"><i class="fa-brands fa-instagram"></i></span><span class="twitter"><i class="fa-brands fa-twitter"></i></span><span class="fb"><i class="fa-brands fa-facebook"></i></span></div>
+          </div>
+          <div class="hiding">
+            <center>&copy;2022 Friends of the Rail Park<br><br> The Friends of the Rail Park is a 501(c)3.<br>All donations are tax-deductible</center>
+          </div>
+        </div>
+</footer>
+
+    
+  </body>
+</html>
